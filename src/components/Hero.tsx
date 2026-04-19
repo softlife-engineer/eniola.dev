@@ -7,20 +7,19 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-      
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero bg-grid-pattern overflow-hidden">
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Sheriff Oladimeji
+              Eniola Abonde
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground font-medium">
-              Full-Stack Engineer
+              Web2 ➜ Web3 Front-end Engineer
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              I build sleek and performant web applications, transforming ideas into seamless user experiences.
+              I build sleek and performant web3 applications, transforming ideas
+              into seamless user experiences.
             </p>
           </div>
 
@@ -30,9 +29,9 @@ export const Hero = () => {
               className="gap-2 shadow-glow hover:shadow-lg transition-all"
               asChild
             >
-              <a href="/resume.pdf" download>
-                <Download className="h-5 w-5" />
-                Download Resume
+              <a href="mailto:abondeabdullahi22@gmail.com" aria-label="Email">
+                <Mail className="h-5 w-5" />
+                Email Me
               </a>
             </Button>
             <Button
@@ -53,10 +52,7 @@ export const Hero = () => {
               className="rounded-full hover:bg-secondary hover:scale-110 transition-all"
               asChild
             >
-              <a 
-                href="mailto:dimejiademola5@gmail.com"
-                aria-label="Email"
-              >
+              <a href="mailto:abondeabdullahi22@gmail.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
@@ -67,7 +63,7 @@ export const Hero = () => {
               asChild
             >
               <a
-                href="https://github.com/Sheriff-Oladimeji"
+                href="https://github.com/softlife-engineer"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -82,7 +78,7 @@ export const Hero = () => {
               asChild
             >
               <a
-                href="https://linkedin.com/in/sheriff-oladimeji"
+                href="https://linkedin.com/in/eniola-abonde"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

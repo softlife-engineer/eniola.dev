@@ -4,11 +4,9 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Sheriff Oladimeji. All rights reserved.
+            © {new Date().getFullYear()} Eniola Abonde. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground">
-            Built with React, TypeScript, and Tailwind CSS
-          </p>
+          <p className="text-xs text-muted-foreground">Built with ❤️</p>
         </div>
       </div>
     </footer>

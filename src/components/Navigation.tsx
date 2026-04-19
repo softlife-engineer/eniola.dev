@@ -14,7 +14,7 @@ export const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="text-xl font-bold hover:text-primary transition-colors"
           >
-            SO
+            Eniola.
           </button>
 
           <div className="hidden md:flex items-center gap-1">

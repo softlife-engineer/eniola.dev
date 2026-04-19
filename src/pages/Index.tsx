@@ -10,32 +10,32 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Sheriff Oladimeji - Full-Stack Engineer | Portfolio</title>
+        <title>Eniola Abonde - Front-end/ Mobile App Engineer | Portfolio</title>
         <meta
           name="description"
-          content="Full-stack engineer specializing in React, TypeScript, Node.js, and modern web technologies. Building sleek and performant web applications."
+          content="Frontend engineer specializing in React, TypeScript, and modern web technologies. Building sleek and performant web applications."
         />
-        <meta name="author" content="Sheriff Oladimeji" />
+        <meta name="author" content="Eniola Abonde" />
         <meta
           name="keywords"
-          content="full-stack developer, react, typescript, node.js, web developer, software engineer"
+          content="frontend developer, react, typescript, node.js, web developer, software engineer"
         />
         
-        <meta property="og:title" content="Sheriff Oladimeji - Full-Stack Engineer" />
+        <meta property="og:title" content="Eniola Abonde - Front-end/ Mobile App Engineer " />
         <meta
           property="og:description"
-          content="Building sleek and performant web applications with React, TypeScript, and Node.js"
+          content="Building sleek and performant web applications with React, TypeScript, and Next.js"
         />
         <meta property="og:type" content="website" />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sheriff Oladimeji - Full-Stack Engineer" />
+        <meta name="twitter:title" content="Eniola Abonde - Front-end/ Mobile App Engineer" />
         <meta
           name="twitter:description"
           content="Building sleek and performant web applications"
         />
         
-        <link rel="canonical" href="https://sherifoladimeji.com" />
+        <link rel="canonical" href="eniola.dev" />
       </Helmet>
 
       <div className="min-h-screen">

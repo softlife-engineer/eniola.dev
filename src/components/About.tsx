@@ -9,11 +9,13 @@ export const About = () => {
     "React Native / Expo",
     "TypeScript",
     "Next.js",
-    "Node.js",
     "Redux / Zustand",
     "Tailwind CSS",
-    "MongoDB",
-    "PostgreSQL",
+    "HTML & CSS",
+    "web3.js / ethers.js",
+    "wagmi",
+    "Hardhat",
+    "Restful APIs",
     "Git & GitHub",
   ];
 
@@ -29,20 +31,15 @@ export const About = () => {
           <Card className="border-none shadow-lg hover-lift">
             <CardContent className="p-8 md:p-12 space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                My journey into coding began with a deep curiosity about how digital systems work. 
-                What started as tinkering with simple scripts quickly evolved into a passion for 
-                building robust, user-centric applications that solve real-world problems.
+                I'm a web3 frontend developer focused on building clean, user- friendly decentralized applications.
+                I specialize in creating modern interfaces that seamlessly connect users to blockchain technologies.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I thrive on the challenge of breaking down complex problems into elegant solutions. 
-                Whether it's crafting intuitive interfaces or architecting scalable backend systems, 
-                I approach each project with meticulous attention to detail and a commitment to 
-                delivering exceptional results.
+                I work primarily with React, Next.js, TypeScript and web3 libraries like ether.js and wagmi to integrate wallet,
+                 interact with smart contracts, and handle on-chain data security.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Continuous learning is at the core of my practice. I stay current with emerging 
-                technologies and best practices, always seeking to refine my craft and push the 
-                boundaries of what's possible in web development.
+                My goal is to bridge the gap between complex blockchain concepts and intuitive user experiences, by building scalable, secure and visually appealing web3 applications/products. 
               </p>
             </CardContent>
           </Card>
