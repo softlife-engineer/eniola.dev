@@ -15,11 +15,10 @@ export const Hero = () => {
               Eniola Abonde
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground font-medium">
-              Web2 ➜ Web3 Front-end Engineer
+              Front-end & Mobile Developer
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              I build sleek and performant web3 applications, transforming ideas
-              into seamless user experiences.
+              I build sleek and performant web and mobile applications, transforming ideas into seamless and engaging user experiences.
             </p>
           </div>
 
@@ -29,16 +28,19 @@ export const Hero = () => {
               className="gap-2 shadow-glow hover:shadow-lg transition-all"
               asChild
             >
-              <a href="mailto:abondeabdullahi22@gmail.com" aria-label="Email">
-                <Mail className="h-5 w-5" />
-                Email Me
+              <a
+                href="/Eniola_Abonde_Resume.pdf"
+                download  
+              >
+                <Download className="h-5 w-5" />
+                Download Resume
               </a>
             </Button>
             <Button
               size="lg"
               variant="outline"
+              className="gap-2 shadow-glow hover:shadow-lg transition-all"
               onClick={scrollToProjects}
-              className="gap-2 hover-lift"
             >
               View Projects
               <ArrowDown className="h-5 w-5" />

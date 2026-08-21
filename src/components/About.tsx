@@ -8,13 +8,9 @@ export const About = () => {
     "Python",
     "React Native / Expo",
     "TypeScript",
-    "Next.js",
     "Redux / Zustand",
     "Tailwind CSS",
     "HTML & CSS",
-    "web3.js / ethers.js",
-    "wagmi",
-    "Hardhat",
     "Restful APIs",
     "Git & GitHub",
   ];
@@ -31,15 +27,17 @@ export const About = () => {
           <Card className="border-none shadow-lg hover-lift">
             <CardContent className="p-8 md:p-12 space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I'm a web3 frontend developer focused on building clean, user- friendly decentralized applications.
-                I specialize in creating modern interfaces that seamlessly connect users to blockchain technologies.
+              I'm a Frontend & Mobile Developer focused on building clean, responsive, and user-friendly digital experiences.
+I specialize in creating modern web and mobile applications with intuitive interfaces, smooth interactions, and a strong focus on performance and usability.
+
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I work primarily with React, Next.js, TypeScript and web3 libraries like ether.js and wagmi to integrate wallet,
-                 interact with smart contracts, and handle on-chain data security.
+                I work primarily with React, Next.js, TypeScript, and React Native to build modern web and mobile applications. I focus on creating responsive interfaces, reusable components, seamless user experiences, and reliable application functionality.
+
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                My goal is to bridge the gap between complex blockchain concepts and intuitive user experiences, by building scalable, secure and visually appealing web3 applications/products. 
+               My goal is to build scalable, high-quality web and mobile applications that solve real-world problems while delivering intuitive, accessible, and visually appealing user experiences.
+ 
               </p>
             </CardContent>
           </Card>
